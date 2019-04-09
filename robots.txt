@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+Sitemap: https://pengtaidev.github.io/sitemap.xml
+Host: https://pengtaidev.github.io
