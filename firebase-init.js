@@ -22,7 +22,8 @@
               return messaging.getToken();
           })
           .then(function(token){
-              alert(token);
+              document.getElementById("pushToken").innerHTML = token;
+              //alert(token);
           })
           .catch(function(arr){
               alert("Error Occured");
